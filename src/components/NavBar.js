@@ -4,8 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import react functions
 import { useState, useEffect } from "react";
-// import assets
-import logo from '../logo.svg';
+
+
+// import FontAwesome Social Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+
+const linkedIn = <FontAwesomeIcon icon={faLinkedin} />
+const gitHub = <FontAwesomeIcon icon={faGithub} />
 
 export const NavBar = () => {
     const[activeLink, setActiveLink] = useState('home');
@@ -33,7 +39,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="Logo"/>
+                    My Portfolio
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggle-icon"></span>
@@ -47,8 +53,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/kurtjensen93/"><img src="#" alt="LinkedIn"/></a>
-                            <a href="https://github.com/kurtmj93"><img src="#" alt="GitHub"/></a>
+                            <a href="https://www.linkedin.com/in/kurtjensen93/">{linkedIn}</a>
+                            <a href="https://github.com/kurtmj93">{gitHub}</a>
                         </div>
                     </span>
                 </Navbar.Collapse>
