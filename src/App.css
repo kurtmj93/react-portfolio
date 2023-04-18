@@ -197,3 +197,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
     }
 }
+
+/**** PORTFOLIO STYLING ****/
+
+
+
+/**** RESUME STYLING ****/
+
+.resume {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-color: #000C14;
+}
+.skill-box {
+  background-image: linear-gradient(126deg, #f8002f 0%, #000c14 74%);
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.resume h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.resume p {
+    color: #D3D3D3;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item svg {
+  width: 50%;
+  font-size: 45px;
+  margin: 0 auto 15px auto;
+}
