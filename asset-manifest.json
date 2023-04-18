@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a12a8523.css",
+    "main.js": "/static/js/main.415acf7b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/react.png": "/static/media/react.665f4df1e412f03a5eb2.png",
+    "static/media/mongooseapi.png": "/static/media/mongooseapi.b28c28975edb4c901b83.png",
+    "static/media/weatherdash.png": "/static/media/weatherdash.9c88bf964eacd620df57.png",
+    "static/media/mockup.png": "/static/media/mockup.d4572bb58ada8171461d.png",
+    "static/media/me.jpg": "/static/media/me.e8d68ad2f27f3985527f.jpg",
+    "static/media/deployed.png": "/static/media/deployed.dbd9e879c13da35d256a.png",
+    "static/media/codequiz.png": "/static/media/codequiz.5db48e8879512bb65479.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.a12a8523.css.map": "/static/css/main.a12a8523.css.map",
+    "main.415acf7b.js.map": "/static/js/main.415acf7b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a12a8523.css",
+    "static/js/main.415acf7b.js"
+  ]
+}
