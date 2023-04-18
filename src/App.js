@@ -7,6 +7,7 @@ import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
 import { Portfolio } from './components/Portfolio';
 import { Resume } from './components/Resume';
+import { Contact } from './components/Contact';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <Portfolio />
       <Resume />
+      <Contact />
     </div>
   );
 }

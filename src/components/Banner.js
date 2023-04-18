@@ -19,14 +19,6 @@ export const Banner = () => {
     const [delta, setDelta] = useState(100);
     const period = 1000;
 
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta)
-        
-        return() => { clearInterval(ticker) };
-    }, [text])
-
     const tick = () => {
         let i = loopNum % titlesToRotate.length;
         let fullText = titlesToRotate[i];
@@ -49,6 +41,14 @@ export const Banner = () => {
             setDelta(100);
         }
     }
+
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick();
+        }, delta)
+        
+        return() => { clearInterval(ticker) };
+    }, [text])
     
 
     return (
@@ -58,12 +58,10 @@ export const Banner = () => {
                         <Col xs={12} md={6} xl={7}>
                             <span className="tagline"><FontAwesomeIcon icon={faLocationDot} /> Richmond, VA</span>
                             <h1>{`Kurt Jensen,`} <span className="wrap">{text}</span></h1>
-                            <p>I'm Kurt Jensen - a Marketing and Communications Director with 8+ years of experience in both agency and in-house environments, for non-profit organizations and for-profit businesses.</p>
-                            <p>I have a wide breadth of expertise critical for developing and executing impactful marketing and communications strategy as well as managing teams from the creative to the technical.</p>
-                            <p>I completed the University of Richmond Full Stack Coding Bootcamp to become a fully-qualified Front-End and Full Stack Developer as well as UI/UX Designer.</p>
+                            <p>I'm Kurt Jensen - a Marketing and Communications Director with 8+ years of experience in both agency and in-house environments, for non-profit organizations and for-profit businesses.</p>                            <p>I completed the University of Richmond Full Stack Coding Bootcamp to become a fully-qualified Front-End and Full Stack Developer as well as UI/UX Designer.</p>
                         </Col>
                         <Col xs={12} md={6} xl={5}>
-                            <img src={me} /> 
+                            <img src={me} alt="Headshot of Kurt Jensen" /> 
                         </Col>
                     </Row>
                 </Container>
