@@ -273,7 +273,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  max-height: 400px; 
+  max-height: 300px; 
   background-size: cover;
 }
 

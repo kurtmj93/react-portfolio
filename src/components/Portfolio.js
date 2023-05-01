@@ -11,6 +11,7 @@ import projMongoose from '../assets/img/mongooseapi.png';
 import projQuiz from '../assets/img/codequiz.png';
 import projWeather from '../assets/img/weatherdash.png';
 import projReact from '../assets/img/react.png';
+import projMERN from '../assets/img/mern-chat-screenshot.png'
 
 
 import 'animate.css';
@@ -62,6 +63,13 @@ export const Portfolio = () => {
             link: 'https://kurtmj93.github.io/code-quiz/',
             github: 'https://github.com/kurtmj93/code-quiz'
         },
+        {
+            title: "MERN - Multiplayer",
+            desc: "A multiplayer game platform built with a MERN stack - MongoDB/Mongoose, Express, React, Node.js - and GraphQL api with subscriptions over a websocket connection to facilitate real-time game state updates. Uses Ant Design for styling.",
+            imgUrl: projMERN,
+            link: 'https://dashboard.heroku.com/apps/fast-ocean-08545',
+            github: 'https://github.com/kurtmj93/MERN-multiplayer'
+        }
     ];
 
     return (
