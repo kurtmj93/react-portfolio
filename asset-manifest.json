@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.678c301a.css",
-    "main.js": "/react-portfolio/static/js/main.2fc4bbb7.js",
+    "main.css": "/react-portfolio/static/css/main.e15f809f.css",
+    "main.js": "/react-portfolio/static/js/main.8677d0ef.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/react.png": "/react-portfolio/static/media/react.665f4df1e412f03a5eb2.png",
     "static/media/mongooseapi.png": "/react-portfolio/static/media/mongooseapi.b28c28975edb4c901b83.png",
     "static/media/weatherdash.png": "/react-portfolio/static/media/weatherdash.9c88bf964eacd620df57.png",
     "static/media/mockup.png": "/react-portfolio/static/media/mockup.d4572bb58ada8171461d.png",
     "static/media/me.jpg": "/react-portfolio/static/media/me.e8d68ad2f27f3985527f.jpg",
+    "static/media/mern-chat-screenshot.png": "/react-portfolio/static/media/mern-chat-screenshot.30ecfb8c7b99b0e588d2.png",
     "static/media/deployed.png": "/react-portfolio/static/media/deployed.dbd9e879c13da35d256a.png",
     "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.5db48e8879512bb65479.png",
     "static/media/revicons.eot": "/react-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/react-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react-portfolio/index.html",
-    "main.678c301a.css.map": "/react-portfolio/static/css/main.678c301a.css.map",
-    "main.2fc4bbb7.js.map": "/react-portfolio/static/js/main.2fc4bbb7.js.map",
+    "main.e15f809f.css.map": "/react-portfolio/static/css/main.e15f809f.css.map",
+    "main.8677d0ef.js.map": "/react-portfolio/static/js/main.8677d0ef.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.678c301a.css",
-    "static/js/main.2fc4bbb7.js"
+    "static/css/main.e15f809f.css",
+    "static/js/main.8677d0ef.js"
   ]
 }
